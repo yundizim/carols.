@@ -1,0 +1,212 @@
+[
+  {
+    "id": 1,
+    "title": "Christmas Song",
+    "artist": "back number",
+    "tags": ["J-Pop", "로맨틱한", "아련한", "커플"],
+    "spotifyId": "5P8ZvBQoCrujjNcLAxO3Su?si=ca8725098e4a4f05"
+  },
+  {
+    "id": 2,
+    "title": "Christmas Starts Tonight",
+    "artist": "grentperez",
+    "tags": ["팝", "어쿠스틱", "귀여운", "차분한", "커플"],
+    "spotifyId": "359to2FTTRcoIC0C8KzIvK?si=03ce5722ff3941f6"
+  },
+  {
+    "id": 3,
+    "title": "The Christmas Waltz",
+    "artist": "Laufey",
+    "tags": ["재즈", "로맨틱한", "차분한", "겨울밤"],
+    "spotifyId": "7HCMTcTZM6i2SKZjBtWqkc?si=5690973df0854584"
+  },
+  {
+    "id": 4,
+    "title": "The Christmas song (Merry Christmas To You)",
+    "artist": "Nat King Cole",
+    "tags": ["재즈", "따뜻한", "가족", "고요한", "겨울밤"],
+    "spotifyId": "4PS1e8f2LvuTFgUs1Cn3ON?si=89745bff09f84bad"
+  },
+  {
+    "id": 5,
+    "title": "Text Me Merry Christmas (feat. Kristen Bell)",
+    "artist": "Straight No Chaser, Kristen Bell",
+    "tags": ["아카펠라", "팝", "장난스러운", "귀여운", "커플"],
+    "spotifyId": "68bjO39GD3JEEL3qAu0bGC?si=f686059a366b467e"
+  },
+  {
+    "id": 6,
+    "title": "Sweet Memories",
+    "artist": "Lilas",
+    "tags": ["J-Pop", "어쿠스틱", "아련한", "차분한"],
+    "spotifyId": "0r2Z0tJBVtN0PFbIZGGTDj?si=5328ece67f194a7e"
+  },
+  {
+    "id": 7,
+    "title": "So Merry Christmas",
+    "artist": "Mihimaru GT",
+    "tags": ["J-Pop", "신나는", "귀여운", "팝"],
+    "spotifyId": "2EtEqo1mZZixvFgxeA8aWQ?si=7fab38bc5e4a4c25"
+  },
+  {
+    "id": 8,
+    "title": "LOVE LOVE LOVE",
+    "artist": "애프터스쿨",
+    "tags": ["K-Pop", "신나는", "귀여운", "커플"],
+    "spotifyId": "7a3IKSOQsm14o87jFtpd58?si=887a72e3bdd640f6"
+  },
+  {
+    "id": 9,
+    "title": "Must Have Love",
+    "artist": "브라운아이드걸스, SG워너비",
+    "tags": ["K-Pop", "따뜻한", "로맨틱한", "커플", "겨울밤"],
+    "spotifyId": "6oKrELmT3Pf4ScRs4BkkyZ?si=9e34a4f529b54edb"
+  },
+  {
+    "id": 10,
+    "title": "Over The Christmas",
+    "artist": "LUCY",
+    "tags": ["K-Pop", "밴드사운드", "신나는", "아련한"],
+    "spotifyId": "6VUZct0q3HLBYPvu391wK8?si=1e203a3a87fa4123"
+  },
+  {
+    "id": 11,
+    "title": "Magic Day",
+    "artist": "Loving Caliber, Mia Niles",
+    "tags": ["팝", "신나는", "귀여운", "어쿠스틱"],
+    "spotifyId": "0tyLp4S7otlGyAzURZfsaR?si=4d9dfb3a557943f6"
+  },
+  {
+    "id": 12,
+    "title": "12시 25분 (Wish List)",
+    "artist": "f(x)",
+    "tags": ["K-Pop", "신나는", "귀여운", "커플", "파티"],
+    "spotifyId": "27xDMgcbyVQsvSqQiD1bD1?si=187a1b2f4e044b35"
+  },
+  {
+    "id": 13,
+    "title": "This Christmas",
+    "artist": "Pink Sweat$, Donny Hathaway",
+    "tags": ["R&B", "따뜻한", "로맨틱한", "커플", "팝"],
+    "spotifyId": "1s8KCi8neCwrRSyhREKmcA?si=6362a917e0954e69"
+  },
+  {
+    "id": 14,
+    "title": "silent",
+    "artist": "SEKAI NO OWARI",
+    "tags": ["J-Pop", "밴드사운드", "고요한", "아련한", "겨울밤"],
+    "spotifyId": "6c5k0VC9TBzlcKwtjpzFW2?si=e57d291484fe4105"
+  },
+  {
+    "id": 15,
+    "title": "Holy Snowy Night",
+    "artist": "KOBUKURO",
+    "tags": ["J-Pop", "따뜻한", "차분한", "커플", "겨울밤"],
+    "spotifyId": "6pPRc7LoGVIqC0REV9qgfx?si=307fea107286436e"
+  },
+  {
+    "id": 16,
+    "title": "冬のプレゼント",
+    "artist": "もさを。",
+    "tags": ["J-Pop", "어쿠스틱", "귀여운", "로맨틱한", "커플"],
+    "spotifyId": "034BqEUIVYlkjTZU4CRT9y?si=666e1399095644b3"
+  },
+  {
+    "id": 17,
+    "title": "Christmas Dreaming",
+    "artist": "Laufey",
+    "tags": ["재즈", "차분한", "쓸쓸한", "나홀로", "겨울밤"],
+    "spotifyId": "4TPrijO5HV5f6ovpf2E10i?si=aa8d51920250435e"
+  },
+  {
+    "id": 18,
+    "title": "엉엉 크리스마스",
+    "artist": "혁오, Joon Park",
+    "tags": ["K-Pop", "밴드사운드", "쓸쓸한", "나홀로", "장난스러운"],
+    "spotifyId": "2vLlnTOCBhMcNJOZS3gM8O?si=fd4dad6bb80343f9"
+  },
+  {
+    "id": 19,
+    "title": "We’ll get back together (before our Christmas comes)",
+    "artist": "차울, Alfie, pigfrog",
+    "tags": ["K-Pop", "어쿠스틱", "차분한", "쓸쓸한", "나홀로"],
+    "spotifyId": "5lPaKl0foOtd6DejbVATwy?si=f8bfc57b355d431c"
+  },
+  {
+    "id": 20,
+    "title": "song from the snow",
+    "artist": "이문세",
+    "tags": ["K-Pop", "어쿠스틱", "따뜻한", "차분한", "아련한"],
+    "spotifyId": "0OeS813btaHw2SeiDA1CYN?si=8aacdc4029fa4cac"
+  },
+  {
+    "id": 21,
+    "title": "Christmas Time (Let’s Do This Love)",
+    "artist": "김반장과 원디시티",
+    "tags": ["K-Pop", "R&B", "재즈", "따뜻한", "커플"],
+    "spotifyId": "2SuL8wCJCIiKjGl0I7SmLI?si=39d4e403d8044b26"
+  },
+  {
+    "id": 22,
+    "title": "Happy Christmas",
+    "artist": "이소라",
+    "tags": ["K-Pop", "고요한", "차분한", "아련한", "겨울밤"],
+    "spotifyId": "6jCDZDFyTgrdaKYmw2VNCJ?si=9c1b9fab5fe342ee"
+  },
+  {
+    "id": 23,
+    "title": "ヒロイン (Heroine)",
+    "artist": "back number",
+    "tags": ["J-Pop", "밴드사운드", "로맨틱한", "아련한", "겨울밤"],
+    "spotifyId": "3hBAYbAECEix9raaTq8S3H?si=9cdf73d526444741"
+  },
+  {
+    "id": 24,
+    "title": "Santa Claus Is Comin’ to Town",
+    "artist": "Mariah Carey",
+    "tags": ["팝", "R&B", "신나는", "파티", "친구"],
+    "spotifyId": "1f2lkuLldqRzvaFjJdjGXX?si=0f1e1d8f06a3451d"
+  },
+  {
+    "id": 25,
+    "title": "Bring Me Love",
+    "artist": "John Legend",
+    "tags": ["R&B", "팝", "신나는", "로맨틱한", "커플", "파티"],
+    "spotifyId": "5MknXpAUgINT11lxoobaJK?si=109a2c550db04557"
+  },
+  {
+    "id": 26,
+    "title": "Baby I’m Coming Home",
+    "artist": "Ally Brooke",
+    "tags": ["팝", "신나는", "로맨틱한", "커플"],
+    "spotifyId": "2HxSczAUouo61zJJIq3Ypl?si=df9579acf0224e8e"
+  },
+  {
+    "id": 27,
+    "title": "Please Santa",
+    "artist": "David Kater",
+    "tags": ["팝", "귀여운", "신나는", "커플"],
+    "spotifyId": "7p1ZHcEoUlqvFouSOeWyRr?si=6fa4fd21dc2d435d"
+  },
+  {
+    "id": 28,
+    "title": "The Very Best Day This Year",
+    "artist": "Jeff Meegan, David Tobin, Mark Armstrong",
+    "tags": ["재즈", "신나는", "파티", "가족", "따뜻한"],
+    "spotifyId": "  2SYfeTvbD7cjxDRCm6LSTe?si=daf9148d40584fad"
+  },
+  {
+    "id": 29,
+    "title": "Under the Tree",
+    "artist": "Sam Palladio",
+    "tags": ["팝", "어쿠스틱", "따뜻한", "로맨틱한", "커플"],
+    "spotifyId": "370svZM4vWhiPiCe5ccvMs?si=14b4d33bcebf428a"
+  },
+  {
+    "id": 30,
+    "title": "Here Comes the Snow",
+    "artist": "Talia Denis",
+    "tags": ["팝", "밴드사운드", "신나는", "겨울밤"],
+    "spotifyId": "6UIU3jzCx5ZGhB10dskEeq?si=ebe62169313e4a13"
+  }
+]

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>크리스마스 캐롤 추천 Q1</title>
+    <link rel="stylesheet" href="Question.css">
+</head>
+<body>
+    <div class="container">
+        <h3>Q3. 크리스마스에 느끼고 싶은 감정은?</h3>
+        <div class="option-card">
+            <label class="option-card">
+                <input type="radio" name="Q3" value='["로맨틱한", "귀여운", "커플", "장난스러운"]'>
+                두근두근 설레는 느낌 🥰
+            </label>
+            <br>
+            <label class="option-card">
+                <input type="radio" name="Q3" value='["아련한", "쓸쓸한", "나홀로", "겨울밤"]'>
+                조금 쓸쓸하지만 아련한 감성 💭
+            </label>
+            <br>
+            <label class="option-card">
+                <input type="radio" name="Q3" value='["고요한", "차분한", "따뜻한"]'>
+                아무 생각 없이 평화롭고 고요한 기분 😌
+            </label>
+        </div>
+        <button id="next">🎅 결과 보기 🎄</button> 
+    </div>
+<script>
+    // 다음 버튼 클릭 시 
+    const next = document.getElementById("next");
+    next.addEventListener("click", () => {
+        // 선택된 옵션 가져오기
+        const selected = document.querySelector('input[name="Q3"]:checked');
+        // 선택 여부 확인, 선택 안했으면 경고
+        if (!selected) {
+            alert("선택해주세요!");
+            return;
+        }
+        
+    // 세션 스토리지에서 userprofile 불러오기
+    const userprofile = JSON.parse(sessionStorage.getItem("userprofile")) || [];
+    // 선택된 태그 배열 파싱
+    const selectedTags = JSON.parse(selected.value);
+    // spread 연산자로 기존 태그 + 추가된 태그 합치기
+    const AllTags = [...userprofile, ...selectedTags];
+    // 세션스토리지에 저장
+    sessionStorage.setItem("userprofile", JSON.stringify(AllTags));
+    // 다음 페이지 이동
+    location.href = "result.html";
+    });
+</script>
+</body>
+</html>

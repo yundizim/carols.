@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="result_style.css">
+    <title>result</title>
+</head>
+<body>
+    <div class="container">
+        <h1>🎄당신을 위한 크리스마스 캐롤 🎄</h1>
+        <div id="results">
+            <h2 id="top1-title"></h2>
+            <iframe id="top1-iframe" width="100%" height="80" frameborder="0" allow="encrypted-media"></iframe>
+            <h3 id="top2-title"></h3>
+            <h3 id="top3-title"></h3>
+        </div>
+    </div>
+
+<script>
+    fetch('carols.json')
+        .then(response => response.json())
+        .then(carols => {
+            const userprofile = JSON.parse(sessionStorage.getItem("userprofile")) || [];
+
+            // 자카드 유사도 계산
+            function jaccardSimilarity(userprofile, carolsTags) {
+                var intersection = 0;
+                for (var i = 0; i < userprofile.length; i++) {
+                    for (var j = 0; j < carolsTags.length; j++) {
+                        if (userprofile[i] == carolsTags[j]) {
+                            intersection++;
+                        }
+                    }
+                }
+                var union = userprofile.length + carolsTags.length - intersection;
+                return intersection / union;
+            }
+
+        // 각 캐롤 점수 계산
+        var carolscores = [];
+        for (var i = 0; i < carols.length; i++) {
+            var carol = carols[i];
+            var score = jaccardSimilarity(userprofile, carol.tags);
+            carol.score = score;          // score 추가
+            carolscores.push(carol);      // 배열에 넣기
+        }
+
+        // 점수 높은 순 정렬
+        for(var i = 0; i < carolscores.length; i++) {
+            for(var j = i +1; j < carolscores.length; j++) {
+                if(carolscores[i].score < carolscores[j].score) {
+                    var temp = carolscores[i];
+                    carolscores[i] = carolscores[j];
+                    carolscores[j] = temp;
+                }
+            }
+        }
+
+        var top1 = carolscores[0];
+        var top2 = carolscores[1];
+        var top3 = carolscores[2];
+
+        // 1위
+        var html1 = `
+            <div class="song-card">
+                <h2>1위 ${top1.title} - ${top1.artist} (${(top1.score * 100)}%)</h2>
+                <iframe 
+                    style="border-radius:12px" 
+                    src="https://open.spotify.com/embed/track/${top1.spotifyId}?utm_source=generator&theme=0" 
+                    width="100%" 
+                    height="152"
+                    frameborder="0"
+                    allow="autoplay; encrypted-media">
+                </iframe>
+            </div>
+        `;
+        document.getElementById("results").innerHTML += html1;
+
+        // 2위
+        var html2 = `
+            <div class="song-card">
+                <h2>2위 ${top2.title} - ${top2.artist} (${(top2.score * 100)}%)</h2>
+                <iframe 
+                    style="border-radius:12px" 
+                    src="https://open.spotify.com/embed/track/${top2.spotifyId}?utm_source=generator&theme=0" 
+                    width="100%" 
+                    height="152"
+                    frameborder="0"
+                    allow="autoplay; encrypted-media">
+                </iframe>
+            </div>
+        `;
+        document.getElementById("results").innerHTML += html2;
+
+        // 3위
+        var html3 = `
+            <div class="song-card">
+                <h2>3위 ${top3.title} - ${top3.artist} (${(top3.score * 100)}%)</h2>
+                <iframe 
+                    style="border-radius:12px" 
+                    src="https://open.spotify.com/embed/track/${top3.spotifyId}?utm_source=generator&theme=0" 
+                    width="100%" 
+                    height="152"
+                    frameborder="0"
+                    allow="autoplay; encrypted-media">
+                </iframe>
+            </div>
+        `;
+        document.getElementById("results").innerHTML += html3;
+    });
+</script>
+</body>
+</html>
